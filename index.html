@@ -1,0 +1,110 @@
+<html>
+    <head>
+  <style>
+      .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.img-div {
+    justify-content: center;
+}
+#tribute-link {
+  color: #CC0000;
+  font-weight: bold;
+}
+#img-caption {
+    font-size: 30px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+  </style>
+    </head>
+
+
+    <body>
+
+      <div id="main">
+            
+            <h1 id="title" class="center">Chris Isaac</h1>
+         
+             <div id="img-div" style="margin:auto;">
+                <div class="row">
+                    <div class="column"></div>
+                    <div class="column">
+                <img src="images/image1.jpg" alt="Chris Isaac Blue Hotel." id="image">
+                <img src="images/image2.jpg" alt="Chris Isaac illustration." id="image">
+                <img src="images/image3.jpg"alt="Chris Isaac illustration." id="image">
+                
+                
+                   </div>
+                   <div class="column">
+                <img src="images/image4.jpg"alt="Chris Isaac illustration." id="image">
+                <img src="images/image5.jpg"alt="Chris Isaac illustration." id="image">
+                <img src="images/image6.jpg"alt="Chris Isaac illustration." id="image">
+                   </div>
+                   <div class="column"></div>
+                
+               </div>
+              <p id="img-caption" class="center"><en>Photo: Painting by Godfrey Kneller, [Public Domain], via Wikimedia Commons</en></p>
+                
+             </div>
+             <div id="Tribute-info" class="center">
+                 
+                <p>QUICK FACTS </p>
+                    <p>   Isaac Newton</p>
+                        <p>  January 4, 1643</p>
+                            <p>  March 31, 1727</p>
+                                <p> Isaac Newton helped develop the principles of modern physics, including the laws of motion, and is credited as one of the great minds of the 17th-century Scientific Revolution.In 1687, Newton published his most acclaimed work, 'Philosophiae Naturalis Principia Mathematica' ('Mathematical Principles of Natural Philosophy'), which has been called the single most influential book on physics.Newton's theory of gravity states that two objects attract each other with a force of gravitational attraction that’s proportional to their masses and inversely proportional to the square of the distance between their centers.</p>
+                                    <p>The King's School, University of Cambridge, Trinity College</p>
+                                        <p>Woolsthorpe, Lincolnshire, England, United Kingdom</p>
+                                            <p>London, England, United Kingdom</p>
+                  
+            
+            </div>
+             <div class="center">
+               <a id="tribute-link" href="https://fr.wikipedia.org/wiki/Chris_Isaak" target="_blank">Click up right here for additional content about Chris Isaac!</a>
+              </div>
+            
+      </div>
+     
+
+
+
+
+    </body>
+    
+</html>
